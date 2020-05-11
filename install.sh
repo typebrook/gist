@@ -8,7 +8,7 @@ trap 'rm -r $tmp_dir' EXIT
 
 cd $tmp_dir
 curl -o $gist_id.tar.gz https://codeload.github.com/gist/$gist_id/tar.gz/$version
-tar -zxvf $gist_id.tar.gz
+tar -zxvf $gist_id.tar.gz > /dev/null
 
 cd $gist_id-$version
 sudo install -m755 gist /usr/local/bin/gist

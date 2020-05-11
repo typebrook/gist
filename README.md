@@ -1,5 +1,5 @@
 # gist
 ## Install
 ```
-curl https://github.com/typebrook/gist/blob/master/install.sh | bash
+curl https://raw.githubusercontent.com/typebrook/gist/master/install.sh | bash
 ```
