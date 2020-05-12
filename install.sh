@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 gist_id=b0d2e7e67aa50298fdf8111ae7466b56
-version=0.1
+version=0.2
 
 tmp_dir=$(mktemp -d)
 trap 'rm -r $tmp_dir' EXIT
