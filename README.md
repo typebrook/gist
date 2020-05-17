@@ -1,5 +1,5 @@
 # gist
 ## Install
 ```
-curl -fsSL https://raw.githubusercontent.com/typebrook/gist/master/install.sh | bash
+curl -fsSL https://typebrook.github.io/gist/install.sh | bash
 ```
