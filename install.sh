@@ -4,7 +4,7 @@ set -e
 set -o pipefail
 
 gist_id=b0d2e7e67aa50298fdf8111ae7466b56
-version=0.7
+version=0.8
 
 tmp_dir=$(mktemp -d)
 trap 'rm -r $tmp_dir' EXIT
